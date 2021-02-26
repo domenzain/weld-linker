@@ -1,0 +1,18 @@
+[package]
+name = "weld-linker"
+version = "0.1.0"
+authors = ["Georges Boumis", "M. Domenzain"]
+edition = "2018"
+description = "A fast linker for ELF binaries"
+readme = "README.md"
+repository = "https://github.com/domenzain/weld-linker/"
+homepage = "https://github.com/domenzain/weld-linker/"
+license = "GPL-3.0-or-later"
+keywords = ["ld", "lld", "gold", "mold", "linker"]
+categories = ["command-line-utilities", "development-tools::build-utils"]
+
+[[bin]]
+name = "weld"
+path = "src/main.rs"
+
+[dependencies]
